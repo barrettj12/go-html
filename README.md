@@ -5,7 +5,7 @@ Write your webpage using nested Go structs, and render it to HTML.
 ```go
 html.HTML(
   html.Head(
-    html.Title("Page Title"),
+    "Page Title",
   ),
   html.Body(
     html.H1("My First Heading"),

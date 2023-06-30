@@ -23,7 +23,7 @@ func TestRender(t *testing.T) {
 	doc :=
 		html.HTML(
 			html.Head(
-				html.Title("Page Title"),
+				"Page Title",
 			),
 			html.Body(
 				html.H1("My First Heading"),
